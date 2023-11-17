@@ -28,3 +28,46 @@ body {
     margin: 0;
     font-family: 'roboto';
 }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 48px 48px;
+    gap: 20px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    flex-grow: 0;
+    color: #F9FAF8;
+    padding: 10px 18px;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.hero-image {
+    width: 400px;
+    height: 225px;
+    background-color: #E5E7EB;
+    flex-shrink: 0;
+}
