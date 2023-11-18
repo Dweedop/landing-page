@@ -71,3 +71,38 @@ body {
     background-color: #E5E7EB;
     flex-shrink: 0;
 }
+
+.call {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 48px;
+    align-items: center;
+}
+
+.section {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-color: #3882F6;
+    border-style: ridge;
+    border-radius: 9px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
